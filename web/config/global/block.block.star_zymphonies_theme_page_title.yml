@@ -1,0 +1,20 @@
+uuid: d23f7357-6bee-48b3-80e1-dfb238d45d3c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: T7QaJrhzbERA2r0z7vSx9ZbzdNJV6WMvHZCz8r82_Yc
+id: star_zymphonies_theme_page_title
+theme: star_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

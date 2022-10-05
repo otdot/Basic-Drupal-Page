@@ -1,0 +1,22 @@
+uuid: e6cd811b-e9cf-4118-a1c4-604c0f42486b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: PVKx7seRZYMWMTERNd5LlKqM3hn81g6_q-aC9ZF6wWU
+id: star_zymphonies_theme_powered
+theme: star_zymphonies_theme
+region: auto_hidden_block
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

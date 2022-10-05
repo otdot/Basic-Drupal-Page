@@ -1,0 +1,20 @@
+uuid: 71753f6d-2407-45df-812b-d0070bfae467
+langcode: en
+status: true
+dependencies:
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: L4F6G8eWNRFNE8qKMl9yiJmeZGHVNgiWfRFybEPiuT8
+id: star_zymphonies_theme_local_actions
+theme: star_zymphonies_theme
+region: auto_hidden_block
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

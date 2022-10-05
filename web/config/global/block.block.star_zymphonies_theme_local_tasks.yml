@@ -1,0 +1,22 @@
+uuid: 4f890a03-079d-4643-bcba-c08e9baf83cb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: FA7b6KkFDZh4Bw8fJJ9mBN229QdE0oYHU_JfjZHUi-0
+id: star_zymphonies_theme_local_tasks
+theme: star_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

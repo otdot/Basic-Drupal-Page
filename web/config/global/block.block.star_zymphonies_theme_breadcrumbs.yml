@@ -1,0 +1,22 @@
+uuid: f3c58d6a-6b90-4873-8568-67a3f8c9c763
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: Auv_K0uNIIML1dZmQYVqpPYRV9JM8VvkRV2TXeJ3z-Q
+id: star_zymphonies_theme_breadcrumbs
+theme: star_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

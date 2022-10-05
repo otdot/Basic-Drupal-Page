@@ -1,0 +1,23 @@
+uuid: cf5f383e-af55-4f8f-ad3b-0fa6949f550e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: KPLWUN4EiphZ3irWef2bW7HhGBVGlqhdYgN7RQRx4VA
+id: star_zymphonies_theme_search
+theme: star_zymphonies_theme
+region: search
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

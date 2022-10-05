@@ -1,0 +1,22 @@
+uuid: c5a3fb71-f0cb-4aef-aa62-34d1ed67e6ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: 497DQrRsdMUwJNbhhvvdFG1A-ZR8_SCU7qvS2bHyKEQ
+id: star_zymphonies_theme_help
+theme: star_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

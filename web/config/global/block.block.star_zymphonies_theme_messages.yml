@@ -1,0 +1,22 @@
+uuid: 1cc0b71f-6385-4538-881b-40e7a3c327e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: kOCUSqGkZrmOhKgaCTZZhzb6QWFKbBUb9hiMqSMY11w
+id: star_zymphonies_theme_messages
+theme: star_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

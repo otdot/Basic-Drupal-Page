@@ -1,0 +1,22 @@
+uuid: 2f81ed3b-30f9-4462-bea4-65003c40f6fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: mxzgA4Ned3ECBBHjRk21hx6ckSCJ4aTfs0GP-tQKVak
+id: star_zymphonies_theme_content
+theme: star_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,38 @@
+_core:
+  default_config_hash: djxUAg5xIcgzadtObfa4SnlBMYJ9XBBxgRervOZhq4Q
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  logo: true
+  name: true
+  node_user_picture: 1
+  slogan: true
+facebook_url: 'https://www.facebook.com/zymphonies'
+twitter_url: 'https://twitter.com/zymphonies'
+linkedin_url: 'https://www.linkedin.com/company/zymphonies'
+instagram_url: 'https://www.instagram.com/zymphonies'
+rss_url: rss.xml
+show_social_icon: 0
+show_credit_link: 1
+show_slideshow: 1
+no_of_slides: '2'
+slide_title_1: 'Slowly but surely'
+slide_description_1: '..comes good'
+slide_url_1: 'https://www.merriam-webster.com/dictionary/slowly%20but%20surely'
+slide_image_path_1: /images/slider/slide_01.jpg
+slide_title_2: 'Learning new technologies'
+slide_description_2: 'For example'
+slide_url_2: 'https://www.udemy.com/'
+slide_image_path_2: /images/slider/slide_02.jpg
+logo:
+  use_default: 0
+  path: 'public://Vector.png'
+favicon:
+  use_default: 0
+  path: 'public://Vector_0.png'
+  mimetype: image/png
+slide_image_path1:
+  - '1'
+slide_image_path2:
+  - '2'

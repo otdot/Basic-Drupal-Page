@@ -1,0 +1,25 @@
+uuid: e5608c8b-182e-49f2-bb35-ef50f42482f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - star_zymphonies_theme
+_core:
+  default_config_hash: 35sGM6cFndKY6tLRnOR1UB8IAfPByv4bMk3s5b8kcQA
+id: star_zymphonies_theme_branding
+theme: star_zymphonies_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

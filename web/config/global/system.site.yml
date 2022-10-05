@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 13fc77a8-b9ca-4f9a-9aa0-06e55be40b4a
+name: Blogbook
+mail: admin@example.com
+slogan: 'Otto''s portfolio'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
